@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 72px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #515A5A;
+  margin: 30px 0;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn {
+  background-color: #2980B9;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #7FB3D5;
+  cursor: pointer;
+}
+
+/* NAVBAR */
+section#hero nav {
+  padding: 20px 50px;
+}
+
+section#hero nav p {
+  color: #2980B9;
+  font-size: 18px;
+  float: left;
+}
+
+section#hero nav p span {
+  color: #fff;
+}
+
+section#hero nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 15px 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  float: right;
+}
+
+section#hero nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+section#hero nav ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+section#hero nav ul li a:hover {
+  cursor: pointer;
+  color: #2980B9;
+}
+
+/* HERO */
+section#hero {
+  background-image: url('img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section#hero div.hero-title {
+  text-align: center;
+  padding: 200px 400px;
+}
+
+section#hero div.hero-title h1 {}
+
+section#hero div.hero-title p {
+  color: #fff;
+  margin: 50px 0;
+}
+
+section#hero div.hero-title button {
+  font-size: 18px;
+  padding: 15px 25px;
+}
+
+section#hero div.hero-title button:hover {
+  background-color: #7FB3D5;
+  cursor: pointer;
+}
+
+/* ABOUT */
+
+section#about div.about {
+  padding: 100px 0;
+}
+
+section#about div.about img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+section#about div.about div.about-text {
+  width: 65%;
+}
+
+section#about div.white {
+  background-color: #fff;
+}
+
+section#about div.white div.about-text {
+  margin-left: 5%;
+}
+
+section#about div.blue {
+  background-color: #2980B9;
+}
+
+section#about div.blue div.about-text {
+  margin-right: 5%;
+}
+
+section#about div.blue div.about-text button {
+  background-color: #fff;
+  color: #2980B9;
+}
+
+section#about div.blue div.about-text button:hover {
+  background-color: #7FB3D5;
+  cursor: pointer;
+}
+
+section#about div.blue div.about-text h3,
+section#about div.blue div.about-text p {
+  color: #fff;
+}
+
+/* FEATURES */
+section#features {
+  text-align: center;
+  margin: 100px 0;
+}
+
+section#features p {}
+
+section#features div.feature-card {
+  width: 27%;
+  padding: 3%;
+}
+
+section#features div.feature-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 64px;
+    color: #fff;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #515A5A;
+    margin: 30px 0;
+  }
+
+  .left,
+  .right {
+    float: none;
+  }
+
+  /* NAVBAR */
+  section#hero nav {
+    padding: 0;
+    text-align: center;
+  }
+
+  section#hero nav p {
+    margin: 0;
+    padding: 15px 0;
+    float: none;
+    font-size: 12px;
+  }
+
+  section#hero nav ul {
+    float: none;
+  }
+
+  section#hero nav ul li {
+    margin: 0 40px;
+  }
+
+  /* HERO */
+
+  section#hero div.hero-title {
+    padding: 200px 150px;
+  }
+
+  section#hero div.hero-title button {
+    background-color: #2980B9;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* ABOUT */
+
+  section#about div.about {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  section#about div.about img {
+    text-align: center;
+    width: 50%;
+    border-radius: 50%;
+    margin: 30px 0;
+  }
+
+  section#about div.about div.about-text {
+    width: 100%;
+  }
+
+  section#about div.white div.about-text,
+  section#about div.blue div.about-text {
+    margin-left: 0;
+  }
+
+  /* FEATURES */
+
+  section#features div.feature-card {
+    width: 100%;
+    padding: 0;
+    margin-top: 70px;
+  }
+
+}
